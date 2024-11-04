@@ -34,9 +34,9 @@ public class Geral : MonoBehaviour
         Debug.Log("Hello World!");
 
         int variavelLocal = 10;
-        string tutorial;
+        //string tutorial;
 
-        print(tutorial);
+        //print(tutorial);
 
         print(variavelGlobal);
         print(variavelLocal);
