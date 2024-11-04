@@ -30,4 +30,22 @@ public class Exercício03 : MonoBehaviour
     {
         
     }
+
+    //Switchcase
+    // [SerializeField] int estadoVilao = 1
+    //
+    //switch (estadoVilao){
+    //  case 1:
+    //        print("Vilao Atacando");
+    //        break;
+    //  case 2:
+    //        print("Vilão Defende");
+    //        break;
+    //  case 3:
+    //        print("Vilão tomando um couro")
+    //        break;
+    //  default:
+    //        print("Não sei")
+    //        break;
+    //}
 }
