@@ -1172,12 +1172,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 521065408}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 872e5676242222a4babf123390861800, type: 3}
+  m_Script: {fileID: 11500000, guid: ab660b03cd05b5244bc412af00b3aa8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horas: 0
-  dias: 0
-  segundos: 0
+  estado: 
 --- !u!1 &817407466
 GameObject:
   m_ObjectHideFlags: 0

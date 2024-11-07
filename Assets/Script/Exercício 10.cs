@@ -36,7 +36,7 @@ public class Exercício10 : MonoBehaviour
                 print("Paçoca Adiquirida!");
                 break;
 
-            case "Paçoca":
+            case "Poção De Vida":
                 pocaoVida = true;
                 print("Poção de Vida Adiquirida!");
                 break;
