@@ -1007,6 +1007,7 @@ GameObject:
   - component: {fileID: 521065409}
   - component: {fileID: 521065412}
   - component: {fileID: 521065413}
+  - component: {fileID: 521065414}
   m_Layer: 0
   m_Name: elf_f_idle_anim_f0_0 (1)
   m_TagString: Untagged
@@ -1154,11 +1155,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521065408}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc8a48c20e0e9964198d16d942efc16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vidaJogador: 10
+  vidaHeroi: 100
+  vidaVilao: 300
+--- !u!114 &521065414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521065408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872e5676242222a4babf123390861800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horas: 0
+  dias: 0
+  segundos: 0
 --- !u!1 &817407466
 GameObject:
   m_ObjectHideFlags: 0

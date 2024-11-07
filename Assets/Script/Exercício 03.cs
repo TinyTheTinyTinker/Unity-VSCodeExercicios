@@ -1,6 +1,14 @@
+using System.Runtime.ConstrainedExecution;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Exercício03 : MonoBehaviour
+    // (Desafio) Considere que o jogo tem um power-up que revive o
+    // personagem caso ele morra.Caso o jogador morra e tiver
+    // coletado o power-up ele volta a vida com 50% de sua vida total e
+    // deve ser exibido a mensagem "Ainda não, vida atual XX". Caso ele
+    // não tenha coletado o power-up exiba "Game Over".
+
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     int vidaTotal = 30;
