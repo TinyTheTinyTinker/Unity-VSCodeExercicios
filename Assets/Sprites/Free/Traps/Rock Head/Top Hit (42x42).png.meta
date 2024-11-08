@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: d524a034ccac52743a1b1a47e40a62be
+guid: 2a56a70c5e2b76a4ba29cb6323a50bee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 643659199895480889
-    second: doc_idle_anim_f0_0
+      213: -5335270044437397966
+    second: Top Hit (42x42)_0
+  - first:
+      213: 6330524061191845242
+    second: Top Hit (42x42)_1
+  - first:
+      213: 1314965101185929502
+    second: Top Hit (42x42)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,10 +54,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: doc_idle_anim_f0_0
+      name: Top Hit (42x42)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 16
-        height: 18
+        y: 9
+        width: 85
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93aae2ec1acbee800800000000000000
-      internalID: 643659199895480889
+      spriteID: 23eb68c792055f5b0800000000000000
+      internalID: -5335270044437397966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Hit (42x42)_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 7
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a753765d71a8ad750800000000000000
+      internalID: 6330524061191845242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top Hit (42x42)_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e111934eac1bf3210800000000000000
+      internalID: 1314965101185929502
       vertices: []
       indices: 
       edges: []
@@ -147,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      doc_idle_anim_f0_0: 643659199895480889
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
