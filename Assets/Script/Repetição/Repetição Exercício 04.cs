@@ -3,23 +3,23 @@ using UnityEngine;
 public class RepetiçãoExercício04 : MonoBehaviour
 {
 
-    [SerializeField] int combos = 0;
+    
     [SerializeField] int pontos = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        while (combos < 9)
+        //for ( inicializa ; condições ; incremento ou decremento) 
+        for (int combos = 1; combos <= 7; combos++)
         {
-            if (combos < 8)
-            {
-                combos++;
-                pontos = pontos + 10;
-            }
-            if (combos == 9)
-            {
-                print("Pontuação Total: " + pontos);
-            }
+            pontos = pontos + 10;
         }
+
+        print(pontos);
+        
+        //for (pontos = 0; combos < 7; pontos = pontos + 10)
+        //{
+
+        //}
     }
 
     // Update is called once per frame
